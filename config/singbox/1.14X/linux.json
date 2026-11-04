@@ -60,7 +60,7 @@
       {"type": "logical", "mode": "or", "rules": [{"port": 53}, {"protocol": "dns"}], "action": "hijack-dns"},
       {"ip_is_private": true, "outbound": "直连"},
       {"ip_cidr": ["85.121.51.131/32","2a06:a880:6:459e::1/128"], "outbound": "直连"},
-      {"domain": ["chaolee.qzz.io","chaolee.de5.net"], "outbound": "直连"},      
+      {"domain": ["rare.chaolee.qzz.io","op.chaolee.de5.net"], "outbound": "直连"},      
       {"type": "logical", "mode": "or", "rules": [{"port": 853}, {"protocol": ["stun", "quic"]}], "action": "reject", "no_drop": true},
       {"network": "icmp", "action": "resolve"},
       {"network": "icmp", "outbound": "直连"},
